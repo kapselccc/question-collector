@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-    @RequestMapping({"","/","index","index.html"})
+    @RequestMapping({"","/","index","index.html","/homepage"})
     public String index(){
         return "index";
     }
